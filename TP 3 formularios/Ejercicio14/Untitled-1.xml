@@ -1,0 +1,55 @@
+<!--Formularios= se inician con <form> y termina </form>
+<!-INPUT permite la clase que recibira>
+<!-<INPUT type="text"> acepta text, passwordd y mas>
+<!-name e id son atributos de INPUT, <input type="text" name="nombre" id="apellido">
+<!-Size determina la anchura del texto, normal 20 caracteres>
+<!-Maxlength es lo contrario y corta el infito de letras>
+<!-Value muestra un texto antes q el usuario escriba>
+<!-placeholder texto sombreado, te da un ejemplo dentro de la casilla
+<!-type="password" pone las cosas con *********** lo tapa>
+<!-type="radio" votones de si o no, <input type="radio" cheked> para que inicie>
+<!-Checkbox es igual que radio, siempre esta en no seleccionado, si se usa checked eso cambia>
+<!-input="submit" es el boton de envio, tambien type="image" y el src para hacerlo con uan imagen>
+<!-type="reset" reinciia todo >
+<!-type="button" value="cliqueame" es boton generico>
+<!-type="hidden" es algo oculto>
+<!-textarea tiene cuatro atributos:>
+<!-name el nobmre>
+<!-rows el numero de linea del area>
+<!-cols el numero de caracteres visibles de cada linea. es parecido al size>
+<!-<textarea name="nombre" rows="filas" cols="columnas">  </textarea>
+<!-select cuadro de selccion, para insertar cuadro es select entre ellos, para insertar opciones es OPTION>
+<!-ejemplo
+<!-<form>
+<!-Elija un color: <br>
+<!-     <select name="color">
+<!-      <option>verde
+<!-      </select>
+<!-      <input type="submit" value="Enviar eleccion">
+<!-</form>
+<!-
+<!-
+<!-SELECTED la opcion seleccionada por defecto, con Size podes elegir cuantas opciones mostrar juntas sino tiene size se muestra la persiana
+<!-ACTION atributo de form, sirve para especificar la dirreccion donde se envian los datos y METHOD para como se enviaran, con valores de GET y POST, GET formulario pequenho, POST grandes
+Input Type: color
+ <input type="color" name="favcolor“ />
+◼ Input Type: date
+ <input type="date" name="bday“ />
+◼ Input Type: datetime
+ <input type="datetime" name="bdaytime“ />
+◼ Input Type: email
+ <input type="email" name="email“ />
+Input Type: month
+ <input type="month" name="bdaymonth“/>
+Input Type: number
+ <input type="number" name="quantity" min="1" max="5“ />
+◼ Input Type: range
+ <input type="range" name="points" min="1" max="10“ />
+◼ Input Type: search
+ <input type="search" name="googlesearch“ />
+◼ Input Type: time
+ <input type="time" name="usr_time“ />
+◼ Input Type: url
+ <input type="url" name="homepage“ />
+◼ Input Type: week
+ <input type="week" name="week_year“ />
